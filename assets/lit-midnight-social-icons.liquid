@@ -1,0 +1,13 @@
+---
+permalink: /assets/lit-midnight-social-icons.svg
+---
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  {% for entry in site.lit-midnight.social_links %}
+    {%- assign symbol_id = entry.platform -%}
+    {% unless symbol_id == "github" %}
+      {%- include svg_symbol.html key = symbol_id -%}
+    {% endunless %}
+    {%- include svg_symbol.html key = "github" -%}
+  {%- endfor -%}
+</svg>
