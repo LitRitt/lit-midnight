@@ -10,6 +10,8 @@ Gem::Specification.new do |spec|
   spec.homepage      = "https://github.com/litritt/lit-midnight"
   spec.license       = "MIT"
 
+  spec.metadata["plugin_type"] = "theme"
+
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(assets|_data|_layouts|_includes|_sass|LICENSE|README|_config\.yml)!i) }
 
   spec.add_runtime_dependency "jekyll", "~> 4.3.1"
@@ -17,4 +19,6 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "jekyll-seo-tag", "~> 2.6"
   spec.add_runtime_dependency "jekyll-remote-theme", "~> 0.4.3"
   spec.add_runtime_dependency "jekyll-github-metadata", "~> 2.15.0"
+  
+  spec.add_development_dependency "bundler"
 end
