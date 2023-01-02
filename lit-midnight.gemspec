@@ -19,6 +19,7 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "jekyll-seo-tag", "~> 2.6"
   spec.add_runtime_dependency "jekyll-remote-theme", "~> 0.4.3"
   spec.add_runtime_dependency "jekyll-github-metadata", "~> 2.15.0"
+  spec.add_runtime_dependency "jekyll-redirect-from", "~> 0.16.0"
   
   spec.add_development_dependency "bundler"
 end
