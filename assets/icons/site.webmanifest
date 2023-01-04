@@ -1,6 +1,6 @@
 {
-    "name": "LitRitt Designs",
-    "short_name": "LitRitt Designs",
+    "name": "Lit Home",
+    "short_name": "Lit Home",
     "icons": [
         {
             "src": "/assets/icons/android-chrome-192x192.png?v=1",
@@ -13,7 +13,7 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#ffffff",
-    "background_color": "#ffffff",
+    "theme_color": "#181818",
+    "background_color": "#181818",
     "display": "standalone"
 }
