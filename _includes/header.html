@@ -33,6 +33,9 @@
         {%- if my_page.title -%}
         <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
         {%- endif -%}
+        {%- if my_page.redirect_title -%}
+        <a class="page-link" href="{{ my_page.redirect_url }}">{{ my_page.redirect_title | escape }}</a>
+        {%- endif -%}
         {%- endfor -%}
       </div>
     </nav>
