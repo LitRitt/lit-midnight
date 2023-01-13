@@ -12,4 +12,4 @@ else
   exit 1
 fi
 
-gem build lit-midnight.gemspec
+gem build side-theme.gemspec
