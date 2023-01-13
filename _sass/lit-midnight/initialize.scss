@@ -43,8 +43,8 @@ $on-large:         $on-laptop !default;
 
 // Import pre-styling-overrides hook and style-partials.
 @import
-  "side-theme/custom-variables", // Hook to override predefined variables.
-  "side-theme/base",             // Defines element resets.
-  "side-theme/layout",           // Defines structure and style based on CSS selectors.
-  "side-theme/custom-styles"     // Hook to override existing styles.
+  "lit-midnight/custom-variables", // Hook to override predefined variables.
+  "lit-midnight/base",             // Defines element resets.
+  "lit-midnight/layout",           // Defines structure and style based on CSS selectors.
+  "lit-midnight/custom-styles"     // Hook to override existing styles.
 ;

@@ -1,23 +1,24 @@
-title: SideSite
+title: LitRitt Designs
 author:
-  name: SideTeam
-# TODO | find sidestore email |  email: mail@sidestore.io
+  name: LitRitt
+  email: dev@litritt.com
 description: The home of all things Lit
-url: "https://sidestore.io"
+url: "https://litritt.com"
 base_url: "" # Example - /blog
-github_url: "https://github.com/SideStore/side-theme" # GitHub link for footer link. Comment out to remove link
+github_url: "https://github.com/LitRitt/litritt.github.io" # GitHub link for footer link. Comment out to remove link
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
-side-theme:
+lit-midnight:
   date_format: "%b %-d, %Y"
 
   # generate social links in footer
   social_links:
-    - { platform: patreon, user_url: "https://www.patreon.com/sidestore" }
-    - { platform: discord, user_url: "https://discord.gg/altstore-delta-625714187078860810" }
-    - { platform: github, user_url: "https://github.com/sidestore" }
-    - { platform: twitter, user_url: "https://twitter.com/sidestore_io" }
+    - { platform: patreon, user_url: "https://www.patreon.com/litritt" }
+    - { platform: discord, user_url: "https://discord.gg/qEtKFJt5dR" }
+    - { platform: github, user_url: "https://github.com/litritt" }
+    - { platform: twitter, user_url: "https://twitter.com/lit_ritt" }
+    - { platform: rss, user_url: "https://litritt.com/feed.xml" }
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
@@ -25,4 +26,4 @@ side-theme:
 # - about.md
 
 # Build settings
-remote_theme: sidestore/side-theme
+remote_theme: litritt/lit-midnight

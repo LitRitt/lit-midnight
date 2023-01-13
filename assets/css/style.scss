@@ -3,5 +3,5 @@
 ---
 
 @import
-  "side-theme/skins/{{ site.side-theme.skin | default: 'auto' }}",
-  "side-theme/initialize";
+  "lit-midnight/skins/{{ site.lit-midnight.skin | default: 'lit' }}",
+  "lit-midnight/initialize";

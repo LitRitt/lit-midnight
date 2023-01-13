@@ -1,14 +1,14 @@
 {
-    "name": "SideStore",
-    "short_name": "SideStore",
+    "name": "Lit Home",
+    "short_name": "Lit Home",
     "icons": [
         {
-            "src": "/assets/icons/android-chrome-192x192.png",
+            "src": "/assets/icons/android-chrome-192x192.png?v=1",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "/assets/icons/android-chrome-512x512.png",
+            "src": "/assets/icons/android-chrome-512x512.png?v=1",
             "sizes": "512x512",
             "type": "image/png"
         }
