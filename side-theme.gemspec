@@ -1,13 +1,13 @@
 # frozen_string_literal: true
 
 Gem::Specification.new do |spec|
-  spec.name          = "lit-midnight"
+  spec.name          = "side-theme"
   spec.version       = "1"
-  spec.authors       = ["LitRitt"]
-  spec.email         = ["dev@litritt.com"]
+  spec.authors       = ["SideTeam"]
+  spec.email         = ["mail@sidestore.io"]
 
-  spec.summary       = "LitRitt's Jekyll Theme"
-  spec.homepage      = "https://github.com/litritt/lit-midnight"
+  spec.summary       = "SideStore's Jekyll Theme"
+  spec.homepage      = "https://github.com/sidestore/side-theme"
   spec.license       = "MIT"
 
   spec.metadata["plugin_type"] = "theme"
