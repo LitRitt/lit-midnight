@@ -30,7 +30,7 @@ layout: default
   <div id="sidenav" class="sidenav">
     {%- for item in site.sidenav_items -%}
     {%- if item.url -%}
-    <a href="{{ item.url | relative_url }}">• {{ item.title }}</a>
+    • <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
     {%- else -%}
     <b>{{ item.title }}</b>
     {%- endif -%}

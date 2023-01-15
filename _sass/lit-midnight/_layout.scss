@@ -262,6 +262,11 @@
   overflow-x: hidden; /* Disable horizontal scroll */
 }
 
+.sidenav a {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
 .sidenav-toggle {
   width: 50px; /* Set the width of the sidebar */
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
