@@ -10,12 +10,12 @@ layout: default
     /* Set the width of the sidebar to 250px and the left margin of the page content to 250px */
     function toggleNav() {
       if (navOpen) {
-        document.getElementById("sidenav").style.width = "0px";
+        document.getElementById("sidenav").style.display = "none";
         document.getElementById("post-header").style.marginLeft = "50px";
         document.getElementById("post-content").style.marginLeft = "50px";
         navOpen = false;
       } else {
-        document.getElementById("sidenav").style.width = "140px";
+        document.getElementById("sidenav").style.display = "initial";
         document.getElementById("post-header").style.marginLeft = "150px";
         document.getElementById("post-content").style.marginLeft = "150px";
         navOpen = true;

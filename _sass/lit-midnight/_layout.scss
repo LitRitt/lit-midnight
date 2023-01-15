@@ -257,10 +257,11 @@
 
 .sidenav {
   margin-top: 50px;
-  width: 0px; /* Set the width of the sidebar */
+  width: 140px; /* Set the width of the sidebar */
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
   overflow-x: hidden; /* Disable horizontal scroll */
   overflow-y: hidden; /* Disable vertical scroll */
+  display: none;
 }
 
 .sidenav a {
