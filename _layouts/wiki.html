@@ -1,0 +1,50 @@
+---
+layout: default
+---
+<article class="post">
+
+  {%- if site.sidenav_items -%}
+
+  <script>
+    navOpen = false;
+    function toggleNav() {
+      if (navOpen) {
+        document.getElementById("sidenav").style.display = "none";
+        document.getElementById("post-header").style.marginLeft = "50px";
+        document.getElementById("post-content").style.marginLeft = "50px";
+        navOpen = false;
+      } else {
+        document.getElementById("sidenav").style.display = "initial";
+        document.getElementById("post-header").style.marginLeft = "150px";
+        document.getElementById("post-content").style.marginLeft = "150px";
+        navOpen = true;
+      }
+    }
+  </script>
+
+  <div class="sidenav-toggle">
+    <button class="togglebtn" onclick="toggleNav()">☰</button>
+  </div>
+
+  <div id="sidenav" class="sidenav">
+    {%- for item in site.sidenav_items -%}
+    {%- if item.url -%}
+    • <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+    {%- else -%}
+    <b>{{ item.title }}</b>
+    {%- endif -%}
+    <br>
+    {%- endfor -%}
+  </div>
+
+  {%- endif -%}
+
+  <header id="post-header" class="post-header">
+    <h1 class="post-title">{{ page.title | escape }}</h1>
+  </header>
+
+  <div id="post-content" class="post-content">
+    {{ content }}
+  </div>
+
+</article>
